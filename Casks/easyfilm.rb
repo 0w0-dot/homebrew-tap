@@ -1,6 +1,6 @@
 cask "easyfilm" do
-  version "1.0.0"
-  sha256 "b2776abee60afc864eb030b7c363a56334056a8adcbb9f4491d01637c82a71ea"
+  version "1.0.1"
+  sha256 "bc5eb410522e6f80107f66de251da4e2f027b4d0b1ca45cd35564d0f0ebcf30d"
 
   url "https://github.com/0w0-dot/easyfilm/releases/download/v#{version}/Easyfilm-#{version}.zip"
   name "Easyfilm"
