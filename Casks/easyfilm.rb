@@ -23,6 +23,7 @@ cask "easyfilm" do
             ]
 
   zap trash: [
+    "~/Library/Application Support/io.github.0w0-dot.easyfilm",
     "~/Library/Caches/io.github.0w0-dot.easyfilm.helper",
     "~/Library/HTTPStorages/io.github.0w0-dot.easyfilm.helper",
     "~/Library/HTTPStorages/io.github.0w0-dot.easyfilm.helper.binarycookies",
