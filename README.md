@@ -9,6 +9,7 @@
 | 앱 | 하는 일 | 설치 |
 | --- | --- | --- |
 | [Easyfilm](https://github.com/0w0-dot/easyfilm) | 넣어 둔 이미지를 누르면 바로 바탕화면이 바뀐다 | `brew install --cask 0w0-dot/tap/easyfilm` |
+| [Dadum](https://github.com/0w0-dot/dadum) | 글을 고르면 맞춤법을 고치거나 번역한다(Claude API 키 필요) | `brew install --cask 0w0-dot/tap/dadum` |
 
 ## 처음이라면
 
@@ -28,6 +29,7 @@ Mac apps by 0w0-dot, installed with Homebrew.
 | App | What it does | Install |
 | --- | --- | --- |
 | [Easyfilm](https://github.com/0w0-dot/easyfilm) | Click an image you've added and it becomes your wallpaper | `brew install --cask 0w0-dot/tap/easyfilm` |
+| [Dadum](https://github.com/0w0-dot/dadum) | Select text to fix Korean spelling or translate it (needs a Claude API key, Korean UI) | `brew install --cask 0w0-dot/tap/dadum` |
 
 Don't have Homebrew? Install it from [brew.sh](https://brew.sh) first. Update with `brew upgrade`, remove with `brew uninstall --cask <app>`.
 
@@ -38,6 +40,7 @@ Don't have Homebrew? Install it from [brew.sh](https://brew.sh) first. Update wi
 | アプリ | できること | インストール |
 | --- | --- | --- |
 | [Easyfilm](https://github.com/0w0-dot/easyfilm) | 追加した画像をクリックすると、すぐに壁紙になる | `brew install --cask 0w0-dot/tap/easyfilm` |
+| [Dadum](https://github.com/0w0-dot/dadum) | テキストを選ぶと、韓国語のスペルを直したり翻訳したりできる(Claude APIキーが必要、画面は韓国語) | `brew install --cask 0w0-dot/tap/dadum` |
 
 Homebrewがない場合は、先に[brew.sh](https://brew.sh)からインストールしてください。アップデートは `brew upgrade`、削除は `brew uninstall --cask <アプリ名>`。
 
@@ -46,4 +49,4 @@ Homebrewがない場合は、先に[brew.sh](https://brew.sh)からインスト�
 ## 관리 메모
 
 - 새 앱을 올릴 때: `Casks/<앱이름>.rb`를 더하고, 위 세 표에 한 줄씩 더한다.
-- Easyfilm의 버전과 확인값은 Easyfilm 저장소의 `release.sh`가 새 버전을 낼 때 고친다.
+- 각 앱의 버전과 확인값은 그 앱 저장소의 `release.sh`가 새 버전을 낼 때 고친다.
